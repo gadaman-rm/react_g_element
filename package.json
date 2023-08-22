@@ -1,8 +1,8 @@
 {
   "name": "react_g_element",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "React components",
-  "main": "/src/index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +18,9 @@
   "homepage": "https://github.com/gadaman-rm/react_g_element#readme",
   "dependencies": {
     "rtl_wrapper": "^1.0.0"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   }
 }
