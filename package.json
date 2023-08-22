@@ -1,6 +1,6 @@
 {
   "name": "react_g_element",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "React components",
   "main": "src/index.js",
   "scripts": {
@@ -20,7 +20,5 @@
     "rtl_wrapper": "^1.0.0"
   },
   "peerDependencies": {
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0"
   }
 }
