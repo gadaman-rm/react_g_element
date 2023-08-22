@@ -1,0 +1,24 @@
+// CardView.scss
+.card-view {
+  border: 2px solid #dee2e6;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  margin-bottom: 1rem;
+  background: white;
+
+  .card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    padding: 0.75rem 1.25rem;
+
+  }
+
+  .card-title {
+    font-size: 1.25rem;
+    margin: 0;
+  }
+
+  .card-body {
+    padding: 1.5rem;
+  }
+}

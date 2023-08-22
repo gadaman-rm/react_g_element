@@ -1,0 +1,55 @@
+// TabView.scss
+.tabs {
+    margin-bottom: 1rem;
+  }
+  
+  .nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 0px;
+    list-style-type: none;
+    display: flex;
+    padding-left: 0px;
+    &.rtl
+    {
+      padding-left: unset;
+      padding-right: 0px;
+    }
+  }
+  .nav-item {
+    margin-bottom: -1px;
+  }
+  
+  .nav-link {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-bottom: none;
+    border-radius: 0.25rem 0.25rem 0 0;
+    color: #212529;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+  }
+  
+  .nav-link:hover {
+    background-color: #e9ecef;
+  }
+  
+  .nav-link.active {
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+    color: #495057;
+  }
+  
+  .tab-content {
+    border: 1px solid #dee2e6;
+    border-top: none;
+    padding: 1rem;
+  }
+  
+  .tab-pane {
+    display: none;
+  }
+  
+  .tab-pane.show {
+    display: block;
+  }
+  

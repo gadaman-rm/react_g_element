@@ -1,11 +1,11 @@
 {
   "name": "react_g_element",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "React components",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src -d dist"
+    "build": "babel src -d dist --copy-files"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,8 @@
     "@babel/plugin-syntax-jsx": "^7.22.5",
     "@babel/preset-env": "^7.22.10",
     "@babel/preset-react": "^7.22.5"
+  },
+  "peerDependencies": {
+    "sass": "^1.66.1"
   }
 }
