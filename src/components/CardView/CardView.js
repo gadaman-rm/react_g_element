@@ -27,4 +27,8 @@ CardView.propTypes = {
   style: PropTypes.object,
 };
 
+CardView.defaultProps = {
+  dir: 'ltr',
+};
+
 export default CardView;

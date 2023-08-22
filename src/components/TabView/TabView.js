@@ -1,10 +1,10 @@
 // TabView.js
 import React, { useState } from "react";
 import PropTypes from "prop-types";
-import RTLWrapper from "rtl_wrapper"
+import RTLWrapper from "rtl_wrapper";
 import "./TabView.scss";
 
-function TabView({ tabs }) {
+function TabView({ tabs, dir }) {
   const [activeTab, setActiveTab] = useState(1);
 
   const handleTabClick = (tabIndex) => {
@@ -12,7 +12,7 @@ function TabView({ tabs }) {
   };
 
   return (
-    <RTLWrapper>
+    <RTLWrapper dir>
       <div className={`tabs`}>
         <ul className={`nav nav-tabs`}>
           {tabs.map((tab, index) => (
@@ -53,6 +53,11 @@ TabView.propTypes = {
       content: PropTypes.node.isRequired,
     })
   ).isRequired,
+};
+
+
+TabView.defaultProps = {
+  dir: 'ltr',
 };
 
 export default TabView;
