@@ -1,0 +1,22 @@
+{
+  "name": "react_g_element",
+  "version": "1.0.0",
+  "description": "React components",
+  "main": "/src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gadaman-rm/react_g_element.git"
+  },
+  "author": "gadaman-rm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gadaman-rm/react_g_element/issues"
+  },
+  "homepage": "https://github.com/gadaman-rm/react_g_element#readme",
+  "dependencies": {
+    "rtl_wrapper": "^1.0.0"
+  }
+}
