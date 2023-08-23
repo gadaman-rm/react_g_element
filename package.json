@@ -1,6 +1,6 @@
 {
   "name": "react_g_element",
-  "version": "1.0.6",
+  "version": "1.0.19",
   "description": "React components",
   "main": "dist/index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/gadaman-rm/react_g_element#readme",
   "dependencies": {
-    "rtl_wrapper": "^1.0.0"
+    "rtl_wrapper": "^1.0.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.22.10",

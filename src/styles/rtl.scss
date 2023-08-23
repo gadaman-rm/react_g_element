@@ -1,0 +1,6 @@
+//rtl.scss
+@mixin rtl
+{
+  direction: rtl;
+  text-align: right;
+}

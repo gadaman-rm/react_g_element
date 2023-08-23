@@ -1,10 +1,10 @@
-// TabView.js
+// GTabView.js
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import RTLWrapper from "rtl_wrapper";
-import "./TabView.scss";
+import "./GTabView.scss";
 
-function TabView({ tabs, dir }) {
+function GTabView({ tabs, dir }) {
   const [activeTab, setActiveTab] = useState(1);
 
   const handleTabClick = (tabIndex) => {
@@ -12,7 +12,7 @@ function TabView({ tabs, dir }) {
   };
 
   return (
-    <RTLWrapper dir>
+    <RTLWrapper dir={dir}>
       <div className={`tabs`}>
         <ul className={`nav nav-tabs`}>
           {tabs.map((tab, index) => (
@@ -46,18 +46,18 @@ function TabView({ tabs, dir }) {
   );
 }
 
-TabView.propTypes = {
+GTabView.propTypes = {
   tabs: PropTypes.arrayOf(
     PropTypes.shape({
       title: PropTypes.string.isRequired,
       content: PropTypes.node.isRequired,
     })
   ).isRequired,
+  dir: PropTypes.oneOf(["ltr", "rtl"]),
 };
 
-
-TabView.defaultProps = {
-  dir: 'ltr',
+GTabView.defaultProps = {
+  dir: "ltr",
 };
 
-export default TabView;
+export default GTabView;
